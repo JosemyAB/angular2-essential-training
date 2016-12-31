@@ -1,3 +1,7 @@
+<header>
+  <div>{{ mediaItems | categoryList }}</div>
+</header>
+
 <section>
   <mw-media-item
     [ngClass]="{'medium-movies': item.medium==='Movies' , 'medium-series': item.medium==='Series'}"
