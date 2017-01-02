@@ -13,4 +13,6 @@
 			"when": "$(basename).ts"
 		}
 	}
+,
+"typescript.check.workspaceVersion": false
 }
