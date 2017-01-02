@@ -1,4 +1,4 @@
-import {OpaqueToken} from '@angular/core';
+import { OpaqueToken } from '@angular/core';
 
 export const lookupListToken = new OpaqueToken('lookupListToken');
 

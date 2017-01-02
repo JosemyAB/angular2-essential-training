@@ -1,20 +1,17 @@
 export class MediaItemService {
-
   get() {
-    console.log(this.mediaItems);
     return this.mediaItems;
   }
-
+  
   add(mediaItem) {
     this.mediaItems.push(mediaItem);
   }
-
+  
   delete(mediaItem) {
     let index = this.mediaItems.indexOf(mediaItem);
-    if (index >= 0) {
+    if(index >= 0) {
       this.mediaItems.splice(index, 1);
     }
-
   }
 
   mediaItems = [
